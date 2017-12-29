@@ -1,14 +1,14 @@
 # portfolio
 
-## who
-**name**: Scott Nyzio
-**email**: [snyzio@live.com](mailto:snyzio@live.com)
+### who
+> **name**: Scott Nyzio<br>
+> **email**: [snyzio@live.com](mailto:snyzio@live.com)
 
-## what
+### what
 just a page that shows off a bunch of other pages, all built by me
 
-## where
+### where
 built in Santa Monica, CA
 
-## why
+### why
 just a way to humble brag a little bit
