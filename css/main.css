@@ -129,9 +129,10 @@ a:hover{
 }
 .ui.inverted.vertical.segment {
   height: 100vh;
+  max-height: 100vh;
 }
 .ui.inverted.vertical.segment .ui.text.container {
-  height: 300px;
+  height: 175px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -140,7 +141,7 @@ a:hover{
   margin: auto;
 }
 .ui.inverted.vertical.segment .ui.footer.segment {
-  height: 80px;
+  height: auto;
   width: 100%;
   position: absolute;
   bottom: 0;
