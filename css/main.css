@@ -94,7 +94,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body{
+  background-image: url('https://placeimg.com/1000/563/any');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 h1.header.huge{
     font-size: 3em;
 }
@@ -139,6 +144,7 @@ a:hover{
   bottom: 0;
   font-size: 1.2em;
   color: gray;
+  background-color: transparent;
 }
 .ui.inverted.vertical.segment .ui.footer.segment i{
   color: red;
@@ -147,7 +153,9 @@ a:hover{
 .ui.inverted.vertical.segment .ui.footer.segment a {
   color: white;
 }
-
+.ui.inverted.segment, .ui.primary.inverted.segment{
+  background-color: rgba(27, 28, 29, 0.6);
+}
 @keyframes pulsate {
     0% {-webkit-transform: scale(1, 1);}
     100% {-webkit-transform: scale(1.2, 1.2);}
